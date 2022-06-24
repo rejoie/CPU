@@ -1,0 +1,170 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Dec 16 15:39:45 2020
+# Process ID: 10528
+# Current directory: E:/vivado project/Single_CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9960 E:\vivado project\Single_CPU\Single_CPU.xpr
+# Log file: E:/vivado project/Single_CPU/vivado.log
+# Journal file: E:/vivado project/Single_CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/vivado project/Single_CPU/Single_CPU.xpr}
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/imports/sources_1/ADD.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/imports/sources_1/ADDSUB_32.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/imports/sources_1/ALU.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/imports/sources_1/Br_Jump_addr.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/imports/sources_1/CLA_32.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/imports/sources_1/CLA_8.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/imports/sources_1/CONUNIT.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/imports/sources_1/Data_mem.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/imports/sources_1/EXT16T32.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/imports/sources_1/Fecth_Circuit.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/imports/sources_1/Inst_mem.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/imports/sources_1/MUX2_1.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/imports/sources_1/MUX2_1_5.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/imports/sources_1/PC.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/imports/sources_1/Single_CPU.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/imports/vivado project/ADD.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7vx485tffg1157-1
+Top: Single_CPU
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 907.504 ; gain = 91.957
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Single_CPU' [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/Single_CPU.v:23]
+INFO: [Synth 8-638] synthesizing module 'Fecth_Circuit' [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/Fecth_Circuit.v:23]
+INFO: [Synth 8-638] synthesizing module 'PC' [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/PC.v:22]
+INFO: [Synth 8-256] done synthesizing module 'PC' (1#1) [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/PC.v:22]
+INFO: [Synth 8-638] synthesizing module 'CLA_32' [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/CLA_32.v:23]
+INFO: [Synth 8-638] synthesizing module 'CLA_8' [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/CLA_8.v:23]
+INFO: [Synth 8-638] synthesizing module 'ADD' [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/ADD.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ADD' (2#1) [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/ADD.v:23]
+INFO: [Synth 8-256] done synthesizing module 'CLA_8' (3#1) [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/CLA_8.v:23]
+INFO: [Synth 8-256] done synthesizing module 'CLA_32' (4#1) [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/CLA_32.v:23]
+INFO: [Synth 8-638] synthesizing module 'MUX4_1' [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/MUX4_1.v:23]
+INFO: [Synth 8-256] done synthesizing module 'MUX4_1' (5#1) [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/MUX4_1.v:23]
+INFO: [Synth 8-638] synthesizing module 'Br_Jump_addr' [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/Br_Jump_addr.v:23]
+INFO: [Synth 8-638] synthesizing module 'EXT16T32' [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/EXT16T32.v:23]
+	Parameter z bound to: 16'b0000000000000000 
+INFO: [Synth 8-638] synthesizing module 'MUX2_1' [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/MUX2_1.v:23]
+INFO: [Synth 8-256] done synthesizing module 'MUX2_1' (6#1) [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/MUX2_1.v:23]
+INFO: [Synth 8-256] done synthesizing module 'EXT16T32' (7#1) [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/EXT16T32.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Br_Jump_addr' (8#1) [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/Br_Jump_addr.v:23]
+INFO: [Synth 8-638] synthesizing module 'Inst_mem' [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/Inst_mem.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Inst_mem' (9#1) [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/Inst_mem.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Fecth_Circuit' (10#1) [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/Fecth_Circuit.v:23]
+INFO: [Synth 8-638] synthesizing module 'CONUNIT' [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/CONUNIT.v:23]
+INFO: [Synth 8-256] done synthesizing module 'CONUNIT' (11#1) [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/CONUNIT.v:23]
+INFO: [Synth 8-638] synthesizing module 'MUX2_1_5' [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/MUX2_1_5.v:23]
+INFO: [Synth 8-256] done synthesizing module 'MUX2_1_5' (12#1) [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/MUX2_1_5.v:23]
+INFO: [Synth 8-638] synthesizing module 'REGFILE' [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/REGFILE.v:23]
+INFO: [Synth 8-256] done synthesizing module 'REGFILE' (13#1) [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/REGFILE.v:23]
+INFO: [Synth 8-638] synthesizing module 'ALU' [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/ALU.v:23]
+INFO: [Synth 8-638] synthesizing module 'ADDSUB_32' [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/ADDSUB_32.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ADDSUB_32' (14#1) [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/ADDSUB_32.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (15#1) [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/ALU.v:23]
+INFO: [Synth 8-638] synthesizing module 'Data_mem' [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/Data_mem.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Data_mem' (16#1) [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/Data_mem.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Single_CPU' (17#1) [E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/Single_CPU.v:23]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port addr[31]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port addr[30]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port addr[29]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port addr[28]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port addr[27]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port addr[26]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port addr[25]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port addr[24]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port addr[23]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port addr[22]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port addr[21]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port addr[20]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port addr[19]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port addr[18]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port addr[17]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port addr[16]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port addr[15]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port addr[14]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port addr[13]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port addr[12]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port addr[11]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port addr[10]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port addr[9]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port addr[8]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port addr[7]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port addr[1]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port addr[0]
+WARNING: [Synth 8-3331] design ALU has unconnected port Aluc[2]
+WARNING: [Synth 8-3331] design Inst_mem has unconnected port address[31]
+WARNING: [Synth 8-3331] design Inst_mem has unconnected port address[30]
+WARNING: [Synth 8-3331] design Inst_mem has unconnected port address[29]
+WARNING: [Synth 8-3331] design Inst_mem has unconnected port address[28]
+WARNING: [Synth 8-3331] design Inst_mem has unconnected port address[27]
+WARNING: [Synth 8-3331] design Inst_mem has unconnected port address[26]
+WARNING: [Synth 8-3331] design Inst_mem has unconnected port address[25]
+WARNING: [Synth 8-3331] design Inst_mem has unconnected port address[24]
+WARNING: [Synth 8-3331] design Inst_mem has unconnected port address[23]
+WARNING: [Synth 8-3331] design Inst_mem has unconnected port address[22]
+WARNING: [Synth 8-3331] design Inst_mem has unconnected port address[21]
+WARNING: [Synth 8-3331] design Inst_mem has unconnected port address[20]
+WARNING: [Synth 8-3331] design Inst_mem has unconnected port address[19]
+WARNING: [Synth 8-3331] design Inst_mem has unconnected port address[18]
+WARNING: [Synth 8-3331] design Inst_mem has unconnected port address[17]
+WARNING: [Synth 8-3331] design Inst_mem has unconnected port address[16]
+WARNING: [Synth 8-3331] design Inst_mem has unconnected port address[15]
+WARNING: [Synth 8-3331] design Inst_mem has unconnected port address[14]
+WARNING: [Synth 8-3331] design Inst_mem has unconnected port address[13]
+WARNING: [Synth 8-3331] design Inst_mem has unconnected port address[12]
+WARNING: [Synth 8-3331] design Inst_mem has unconnected port address[11]
+WARNING: [Synth 8-3331] design Inst_mem has unconnected port address[10]
+WARNING: [Synth 8-3331] design Inst_mem has unconnected port address[9]
+WARNING: [Synth 8-3331] design Inst_mem has unconnected port address[8]
+WARNING: [Synth 8-3331] design Inst_mem has unconnected port address[7]
+WARNING: [Synth 8-3331] design Inst_mem has unconnected port address[6]
+WARNING: [Synth 8-3331] design Inst_mem has unconnected port address[1]
+WARNING: [Synth 8-3331] design Inst_mem has unconnected port address[0]
+WARNING: [Synth 8-3331] design Br_Jump_addr has unconnected port I[31]
+WARNING: [Synth 8-3331] design Br_Jump_addr has unconnected port I[30]
+WARNING: [Synth 8-3331] design Br_Jump_addr has unconnected port I[29]
+WARNING: [Synth 8-3331] design Br_Jump_addr has unconnected port I[28]
+WARNING: [Synth 8-3331] design Br_Jump_addr has unconnected port I[27]
+WARNING: [Synth 8-3331] design Br_Jump_addr has unconnected port I[26]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 942.465 ; gain = 126.918
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 942.465 ; gain = 126.918
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:31 ; elapsed = 00:00:26 . Memory (MB): peak = 1505.137 ; gain = 689.590
+38 Infos, 62 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:26 . Memory (MB): peak = 1505.137 ; gain = 689.590
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 16 15:47:17 2020...

@@ -1,0 +1,24 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+E:/vivado project/Single_CPU/Single_CPU.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+E:/vivado project/Single_CPU/Single_CPU.srcs/sim_1/new/test_CPU.v,1607438566,verilog,,,,test_CPU,,,,,,,,
+E:/vivado project/Single_CPU/Single_CPU.srcs/sim_1/new/test_all.v,1607446295,verilog,,,,test_all,,,,,,,,
+E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/ADD.v,1607261398,verilog,,E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/ADDSUB_32.v,,ADD,,,,,,,,
+E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/ADDSUB_32.v,1606750762,verilog,,E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/ALU.v,,ADDSUB_32,,,,,,,,
+E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/ALU.v,1607333980,verilog,,E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/Br_Jump_addr.v,,ALU,,,,,,,,
+E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/Br_Jump_addr.v,1607316326,verilog,,E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/CLA_32.v,,Br_Jump_addr,,,,,,,,
+E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/CLA_32.v,1607316025,verilog,,E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/CLA_8.v,,CLA_32,,,,,,,,
+E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/CLA_8.v,1606749457,verilog,,E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/CONUNIT.v,,CLA_8,,,,,,,,
+E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/CONUNIT.v,1607262809,verilog,,E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/Data_mem.v,,CONUNIT,,,,,,,,
+E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/Data_mem.v,1607269139,verilog,,E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/EXT16T32.v,,Data_mem,,,,,,,,
+E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/EXT16T32.v,1607439940,verilog,,E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/Fecth_Circuit.v,,EXT16T32,,,,,,,,
+E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/Fecth_Circuit.v,1607316156,verilog,,E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/Inst_mem.v,,Fecth_Circuit,,,,,,,,
+E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/Inst_mem.v,1607483559,verilog,,E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/MUX2_1.v,,Inst_mem,,,,,,,,
+E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/MUX2_1.v,1606554140,verilog,,E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/MUX2_1_5.v,,MUX2_1,,,,,,,,
+E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/MUX2_1_5.v,1607097309,verilog,,E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/MUX4_1.v,,MUX2_1_5,,,,,,,,
+E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/MUX4_1.v,1606553823,verilog,,E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/PC.v,,MUX4_1,,,,,,,,
+E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/PC.v,1607446221,verilog,,E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/REGFILE.v,,PC,,,,,,,,
+E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/REGFILE.v,1607445914,verilog,,E:/vivado project/Single_CPU/Single_CPU.srcs/sim_1/new/test_all.v,,REGFILE,,,,,,,,
+E:/vivado project/Single_CPU/Single_CPU.srcs/sources_1/Single_CPU.v,1607314537,verilog,,E:/vivado project/Single_CPU/Single_CPU.srcs/sim_1/new/test_CPU.v,,Single_CPU,,,,,,,,
